@@ -1,0 +1,16 @@
+CREATE DATEBASE `Mess`;
+CREATE TABLE `comments`(
+	`id` INT NOT NULL,
+	`postId` INT,
+   	`name` TEXT ,
+	`email` TEXT,
+	`body` TEXT,
+	PRIMARY KEY(id)
+	);
+CREATE TABLE `posts`(
+	`id` INT NOT NULL,
+	`userId` INT,
+	`title` TEXT,
+	`body` TEXT,
+	PRIMARY KEY(id)
+	);

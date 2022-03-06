@@ -1,0 +1,28 @@
+body {
+  background-color: #E0FFFF;
+}
+.con{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 60px;
+  padding: 24px;
+}
+input[type=text] {
+  width:40%;
+  padding: 15px;
+  resize: vertical;
+  border: 0;
+  border-radius: 10px;
+  box-shadow:10px 10px 20px rgba(0.1,0.1,0.1,0.1);
+}
+input[type=submit] {
+  width:8%;
+  height: 5%;
+  display: inline-block;
+  color: #696990;
+  padding: 15px;
+  background-color:#ADD8E6;
+  border-radius:4px;
+  border: 2px solid #87CEEB;
+}
+input[type=submit]:hover {background-color: #6495ED;}
